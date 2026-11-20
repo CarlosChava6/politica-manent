@@ -1,6 +1,6 @@
-# Política de privacidad de Manent
+# Política de privacidad de Asistente de reuniones (Manent)
 
-Última actualización: 18 de noviembre de 2026
+Última actualización: 20 de noviembre de 2026
 
 Manent graba tus reuniones y las transcribe **en tu propio equipo**. Esta política explica qué datos maneja la
 app, dónde se quedan y qué conexiones hace.
@@ -23,10 +23,10 @@ todo se queda en tu equipo.
 | Dato | Para qué | Dónde se queda |
 |---|---|---|
 | Audio del micrófono y del sonido del equipo | Transcribir la reunión | En la memoria del equipo mientras se graba y se transcribe. No se guarda en disco, salvo la copia cifrada del punto siguiente |
-| Copia cifrada del audio | Que no se pierda una reunión si la transcripción no termina: fallo, cierre de la app o del equipo, batería o memoria bajas, o si eliges "Dejar para luego" | En la carpeta de datos de la app, cifrada (AES-GCM). Se borra en cuanto existe el acta o cuando eliminas la reunión |
+| Copia cifrada del audio | Que no se pierda una reunión si la transcripción no termina: fallo, cierre de la app o del equipo, batería o memoria bajas, o si eliges "Dejar para luego" | En la carpeta de datos de la app, cifrada (AES-GCM). Se borra en cuanto existe la transcripción o cuando eliminas la reunión |
 | Clave de esa copia | Descifrar la copia en tu equipo | Protegida por el sistema con tu usuario: en Windows, con la protección de datos de Windows; en Ubuntu, en el llavero |
-| Actas | El resultado: el texto de la reunión con quién habla ("Tú", "Participante 1"...), los tiempos, el cliente, el nombre de la reunión, la fecha y los dispositivos usados | En `Documentos/Actas de reuniones`, en la carpeta de cada cliente. Son tuyas: la app no las borra |
-| Ajustes | Recordar la carpeta de las actas y el tema claro u oscuro | En la configuración de tu usuario |
+| Transcripciones | El resultado: el texto de la reunión con quién habla ("Tú", "Participante 1"...), los tiempos, el cliente, el nombre de la reunión, la fecha y los dispositivos usados | En `Documentos/Transcripciones`, en la carpeta de cada cliente. Son tuyas: la app no las borra |
+| Ajustes | Recordar la carpeta de las transcripciones, el tema claro u oscuro y si la barra lateral está plegada | En la configuración de tu usuario |
 | Registro técnico (`motor.log`) | Diagnosticar fallos de la transcripción | En la carpeta de datos de la app. No contiene audio |
 
 ## 3. Conexiones a internet
@@ -60,9 +60,9 @@ participantes: hacerlo es responsabilidad de quien graba.
 
 ## 7. Cuánto tiempo se guardan los datos
 
-- **Audio:** no se guarda. La copia cifrada, cuando la hay, se borra al escribirse el acta o al eliminar la
+- **Audio:** no se guarda. La copia cifrada, cuando la hay, se borra al escribirse la transcripción o al eliminar la
   reunión.
-- **Actas:** hasta que las borres tú.
+- **Transcripciones:** hasta que las borres tú.
 - **Datos de la app** (modelos, clave, copias pendientes y registro): hasta que desinstales la app o borres su
   carpeta de datos.
 
@@ -73,7 +73,7 @@ Manent no está dirigida a menores.
 ## 9. Tus derechos
 
 Como el desarrollador no tiene ningún dato tuyo, no puede consultarlos, corregirlos ni borrarlos: los
-gestionas tú directamente en tu equipo, borrando las actas o desinstalando la app.
+gestionas tú directamente en tu equipo, borrando las transcripciones o desinstalando la app.
 
 ## 10. Cambios en esta política
 
